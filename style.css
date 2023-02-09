@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+
+/* 
+1. 222831
+2. 393E46
+3. 00ADB5
+4. EEEEEE
+*/
+
+.navbar {
+  padding: 20px;
+  background-color: #222831;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0px 80px;
+  flex-wrap: nowrap;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+
+  font-style: oblique;
+  color: #eeeeee;
+}
+.navbar ul li a:hover {
+  color: #ffd369;
+}
+.home {
+  background-color: #eeeeee;
+}
+
+.home .main-home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 91vh;
+}
+.main-home .home-image {
+  width: 250px;
+  height: 250px;
+}
+
+.main-home .home-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 0px;
+}
+
+.main-home .home-desc h1 {
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #00adb5;
+}
+.main-home .home-desc h4 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #393e46;
+  opacity: 0.7;
+}
+
+.main-home .home-desc h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #393e46;
+}
+
+.home-desc .home-btn {
+  margin-top: 20px;
+  padding: 10px 40px;
+  background-color: #ffd369;
+  border-radius: 5px;
+}
+
+.home-desc .home-btn a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #222831;
+}
+.home-desc .home-btn:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.24),
+    0 10px 10px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s ease;
+}
